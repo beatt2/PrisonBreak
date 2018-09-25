@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad489f32971c62f48937bed79fde01b3, type: 3}
+  m_Name: Default Texture
+  m_EditorClassIdentifier: 
+  AutoUpdate: 1
+  Layers:
+  - Name: Water
+    Texture: {fileID: 2800000, guid: 3053086b0ba7a6d47b4414525283194d, type: 3}
+    Tint: {r: 0.41901034, g: 0.50835484, b: 0.8301887, a: 0}
+    TintStrength: 0
+    StartHeight: 0
+    BlendStrength: 0
+    TextureScale: 0.72
+  - Name: sand
+    Texture: {fileID: 2800000, guid: b53da9840c95e254789cb4be984ee022, type: 3}
+    Tint: {r: 0.67684346, g: 0.77205884, b: 0.40873703, a: 0}
+    TintStrength: 1
+    StartHeight: 0.084
+    BlendStrength: 0
+    TextureScale: 0
+  - Name: Grass
+    Texture: {fileID: 2800000, guid: a7b163fd833983f43bd9774ae82bb912, type: 3}
+    Tint: {r: 0.32373622, g: 0.7075472, b: 0.40647608, a: 0}
+    TintStrength: 0
+    StartHeight: 0.362
+    BlendStrength: 0.458
+    TextureScale: 0
+  - Name: Rocks1
+    Texture: {fileID: 2800000, guid: f3ac90cb1eebe51458c20a847f0844b9, type: 3}
+    Tint: {r: 0.4852941, g: 0.4852941, b: 0.4852941, a: 0}
+    TintStrength: 0.191
+    StartHeight: 0.605
+    BlendStrength: 0.326
+    TextureScale: 0
+  - Name: Rocks2
+    Texture: {fileID: 2800000, guid: 7203ae1fe3ef29848b687244ba6a821e, type: 3}
+    Tint: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 0}
+    TintStrength: 0
+    StartHeight: 0.703
+    BlendStrength: 0
+    TextureScale: 0
+  - Name: Snow
+    Texture: {fileID: 2800000, guid: 7bd75bc12e27887439244ce28a9b5322, type: 3}
+    Tint: {r: 1, g: 1, b: 1, a: 0}
+    TintStrength: 0.772
+    StartHeight: 0.863
+    BlendStrength: 0
+    TextureScale: 2
